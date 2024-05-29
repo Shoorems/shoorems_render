@@ -249,7 +249,7 @@ class StoreHistory {
                         const mydata = result.data;
                         //            console.log(mydata)
 
-                        if (mydata.status == true) {
+                        if (mydata.success == true) {
 
 
                             this.storeBanks(username, mydata.account_number, mydata.account_name, 'safehaven')
@@ -272,7 +272,7 @@ class StoreHistory {
                         const mydata = result.data;
                         //     console.log(mydata)
 
-                        if (mydata.status == true) {
+                        if (mydata.success == true) {
 
 
                             this.storeBanks(username, mydata.account_number, mydata.account_name, 'providus')
@@ -293,7 +293,7 @@ class StoreHistory {
                         const mydata = result.data;
                         //   console.log(mydata)
                         
-                        if (mydata.status == true) {
+                        if (mydata.success == true) {
 
 
                             this.storeBanks(username, mydata.account_number, mydata.account_name, 'paga')
